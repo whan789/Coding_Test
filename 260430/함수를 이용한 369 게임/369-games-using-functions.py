@@ -12,7 +12,6 @@ cnt = 0
 for i in range(a, b+1):
     if sol2(i):
         cnt+=1
-        print(i)
 print(cnt)
 
 
