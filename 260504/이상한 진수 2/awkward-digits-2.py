@@ -10,7 +10,7 @@ for i in range(len(A)):
         A[i] = "1"
 
     for j in range(len(A)):
-        total = total + int(A[j]) * 2**(len(A)-j-1)
+        total = total * 2 + int(A[j])
     
     if total > max_num:
         max_num = total
@@ -18,4 +18,5 @@ for i in range(len(A)):
     total = 0
 
 print(max_num)
+
 
